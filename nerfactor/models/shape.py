@@ -18,13 +18,13 @@ from os.path import join
 import numpy as np
 import tensorflow as tf
 
-from third_party.xiuminglib import xiuminglib as xm
-from brdf.renderer import gen_light_xyz
-from nerfactor.networks import mlp
-from nerfactor.networks.embedder import Embedder
-from nerfactor.util import logging as logutil, io as ioutil, img as imgutil, \
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.brdf.renderer import gen_light_xyz
+from nerfactor.nerfactor.networks import mlp
+from nerfactor.nerfactor.networks.embedder import Embedder
+from nerfactor.nerfactor.util import logging as logutil, io as ioutil, img as imgutil, \
     tensor as tutil, math as mathutil
-from nerfactor.models.base import Model as BaseModel
+from nerfactor.nerfactor.models.base import Model as BaseModel
 
 
 logger = logutil.Logger(loggee="models/shape")
