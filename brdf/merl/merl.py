@@ -16,8 +16,8 @@ from os.path import basename
 import numpy as np
 from scipy.spatial import cKDTree
 
-from third_party.xiuminglib import xiuminglib as xm
-from third_party.nielsen2015on import merlFunctions as merl, \
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.third_party.nielsen2015on import merlFunctions as merl, \
     coordinateFunctions as coord
 
 
