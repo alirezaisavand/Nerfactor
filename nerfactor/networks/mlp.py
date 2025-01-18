@@ -22,7 +22,7 @@ logger = logutil.Logger(loggee="networks/mlp")
 
 
 class Network(BaseNetwork):
-    def __init__(self, widths, act=None, skip_at=None):
+    def  __init__(self, widths, act=None, skip_at=None):
         super().__init__()
         depth = len(widths)
         if act is None:

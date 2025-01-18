@@ -20,12 +20,12 @@ from tqdm import tqdm
 import numpy as np
 import tensorflow as tf
 
-from third_party.xiuminglib import xiuminglib as xm
-from nerfactor.models.shape import Model as ShapeModel
-from nerfactor.models.brdf import Model as BRDFModel
-from nerfactor.networks import mlp
-from nerfactor.networks.embedder import Embedder
-from nerfactor.util import vis as visutil, config as configutil, \
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.nerfactor.models.shape import Model as ShapeModel
+from nerfactor.nerfactor.models.brdf import Model as BRDFModel
+from nerfactor.nerfactor.networks import mlp
+from nerfactor.nerfactor.networks.embedder import Embedder
+from nerfactor.nerfactor.util import vis as visutil, config as configutil, \
     io as ioutil, tensor as tutil, light as lightutil, img as imgutil, \
     math as mathutil, geom as geomutil
 
