@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from nerfactor.nerfactor.util import logging as logutil
-
+# from nerfactor.nerfactor.util import logging as logutil
+from nerfactor.util import logging as logutil
 
 logger = logutil.Logger(loggee="networks/base")
 
