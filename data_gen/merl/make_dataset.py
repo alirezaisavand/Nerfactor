@@ -17,10 +17,10 @@ import numpy as np
 from tqdm import tqdm
 from absl import app, flags
 
-from nerfactor.third_party.xiuminglib import xiuminglib as xm
-from nerfactor.data_gen.util import save_npz
-from nerfactor.brdf.renderer import SphereRenderer
-from nerfactor.brdf.merl.merl import MERL
+from third_party.xiuminglib import xiuminglib as xm
+from data_gen.util import save_npz
+from brdf.renderer import SphereRenderer
+from brdf.merl.merl import MERL
 
 
 flags.DEFINE_string('indir', '', "directory to downloaded MERL binary files")
