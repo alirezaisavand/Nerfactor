@@ -17,7 +17,7 @@
 from os.path import join
 import numpy as np
 
-from nerfactor.nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
 
 
 class SphereRenderer:
