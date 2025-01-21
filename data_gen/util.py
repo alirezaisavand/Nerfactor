@@ -16,7 +16,7 @@ from os.path import join, basename
 from io import BytesIO
 import numpy as np
 
-from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from third_party.xiuminglib import xiuminglib as xm
 
 
 def spherify_poses(poses):
