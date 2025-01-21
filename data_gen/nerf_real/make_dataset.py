@@ -17,8 +17,8 @@ import numpy as np
 from tqdm import tqdm
 from absl import app, flags
 
-from third_party.xiuminglib import xiuminglib as xm
-from data_gen.util import gen_data
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.data_gen.util import gen_data
 
 
 flags.DEFINE_string('scene_dir', '', "scene directory")

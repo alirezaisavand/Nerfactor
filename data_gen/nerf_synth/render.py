@@ -6,9 +6,9 @@ import numpy as np
 from absl import app, flags
 from tqdm import tqdm
 
-from third_party.xiuminglib import xiuminglib as xm
-from data_gen.util import read_light, listify_matrix
-from nerfactor.util import img as imgutil
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.data_gen.util import read_light, listify_matrix
+from nerfactor.nerfactor.util import img as imgutil
 
 import bpy
 from mathutils import Matrix

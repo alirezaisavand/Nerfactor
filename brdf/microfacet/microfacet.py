@@ -15,7 +15,7 @@
 import numpy as np
 import tensorflow as tf
 
-from nerfactor.util import math as mathutil
+from nerfactor.nerfactor.util import math as mathutil
 
 
 class Microfacet:
