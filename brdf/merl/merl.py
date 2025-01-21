@@ -16,10 +16,12 @@ from os.path import basename
 import numpy as np
 from scipy.spatial import cKDTree
 
-from third_party.xiuminglib import xiuminglib as xm
-from third_party.nielsen2015on import merlFunctions as merl, \
+# from third_party.xiuminglib import xiuminglib as xm
+# from third_party.nielsen2015on import merlFunctions as merl, \
+#     coordinateFunctions as coord
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.third_party.nielsen2015on import merlFunctions as merl, \
     coordinateFunctions as coord
-
 
 class MERL:
     def __init__(self, path=None):
