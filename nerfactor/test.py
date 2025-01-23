@@ -171,8 +171,8 @@ def main(_):
     # Optionally, edit BRDF
     brdf_z_override = None
     if FLAGS.tgt_brdf:
-        tgt_brdf_z = model.brdf_model.latent_code.z[
-            model.brdf_model.brdf_names.index(FLAGS.tgt_brdf), :]
+        tgt_brdf_z = model.nerfactor_brdf_model.latent_code.z[
+            model.nerfactor_brdf_model.brdf_names.index(FLAGS.tgt_brdf), :]
         brdf_z_override = tf.convert_to_tensor(tgt_brdf_z, dtype=tf.float32)
 
     # For all test views

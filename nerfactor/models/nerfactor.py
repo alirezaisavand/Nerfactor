@@ -411,7 +411,7 @@ class Model(ShapeModel):
         return brdf_z # NxZ
 
     def _eval_brdf_at(self, pts2l, pts2c, normal, albedo, brdf_prop):
-        brdf_scale = self.config.getfloat('DEFAULT', 'learned_brdf_scale')
+        brdf_scale = self.nerfactor_config.getfloat('DEFAULT', 'learned_brdf_scale')
         z = brdf_prop
         world2local = geomutil.gen_world2local(normal)
         # Transform directions into local frames
